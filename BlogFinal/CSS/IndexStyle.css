@@ -1,0 +1,168 @@
+*{
+  transition: .5s ease-in;
+}
+
+#container-home #home-h4{
+  padding: 12px 15px;
+  background: black;
+  color: white;
+  height: 50px;
+  border-radius: 2px;
+}
+#pro-snap-body img{
+  height: 200px;
+  width: 100%;
+  filter: brightness(93%);
+  border-radius: 5px;
+}
+#pro-snap-body img:hover{
+  filter: brightness(100%);
+  cursor: pointer;
+}
+#snap-pro-desc{
+  padding: 3%;
+  margin: 2%;
+}
+#pro-snap-body #pro-area{
+  background: rgba(0,0,0,0.2);
+  padding: 1%;
+  border-radius: 7px;
+  width: 32%;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+#snap-pro-desc .fa-star{
+  color: red;
+  font-size: 18px;
+}
+#pro-snap-body{
+  margin-top: 10px;
+}
+#snap-pro-desc h6 a button,
+#view-all-btn{
+  color: white;
+  background: rgba(168,7,7,.8);
+  border: none;
+  padding: 3px 7px;
+  border-radius: 3px;
+}
+#snap-pro-desc h6 a button:hover,
+#view-all-btn:hover{
+  background: rgb(168,7,7);
+  cursor: pointer;
+}
+#view-all-btn{
+  font-size: 20px;
+  opacity: 0;
+}
+.row #ad-area{
+  margin-top: 13px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 7px;
+  padding: 5px 20px;
+}
+.row #ad-area #ad-title{
+  background: #fff;
+  padding: 5%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.row #ad-area img{
+  margin-top: 10px;
+  height: 180px;
+  width: 100%;
+  filter: brightness(80%);
+  border-radius: 7px;
+}
+@media (max-width: 800px){
+  .row #ad-area img{
+    height: 150px;
+  }
+  #pro-snap-body #pro-area{
+    width: 47%;
+  }
+
+}
+.row #ad-area #ad-desc span{
+  color: red;
+}
+.best-product{
+  margin-top: 20px; 
+  background: rgba(0,0,0,0.8); 
+  padding: 1%;
+  border-radius: 5px;
+}
+.best-product img{
+  height: 180px;
+  width: 100%;
+  border-radius: 5px;
+  filter: brightness(80%);
+}
+@media (max-width: 640px){
+  .best-product img{
+    height: 150px;
+  }
+}
+
+.best-product #blog-short-desc{
+  background: rgba(255,0,0,.5);
+  color: white;
+  padding: 2%;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.best-product #blog-short-desc button{
+  border: none;
+  background: black;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+.best-product #blog-title{
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.best-product #ad-desc h6{
+  color: white;
+}
+@media(max-width: 1000px){
+  .landing-section{
+    height: 450px;
+  }
+  #pro-snap-body img{
+    height: 180px;
+  }
+  #snap-pro-desc h6{
+    font-size: 15px;
+  }
+}
+@media(max-width: 600px){
+  #pro-snap-body img{
+    height: 150px;
+  }
+  #snap-pro-desc h6{
+    font-size: 14px;
+  }
+  .landing-section{
+    height: 300px;
+  }
+  #snap-pro-desc h6 a button{
+    opacity: 0;
+  }
+  #view-all-btn{
+    opacity: 1;
+  }
+  h4{
+    font-size: 25px;
+  }
+}
+@media (max-width: 420px){
+  .landing-section-btns button{
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 9%;
+  }
+}

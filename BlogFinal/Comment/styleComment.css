@@ -1,0 +1,57 @@
+#comment_form{
+	background: rgba(0,0,0,0.1);
+	padding: 10px;
+	border: 2px solid rgba(0,0,0,0.2);
+	border-radius: 3px;
+}
+#comment_form input{
+	border: none;
+	background: white;
+	padding-left: 2px;
+	border-radius: 3px;
+}
+#comment_form #submit,
+#panel .reply{
+	padding: 10px 5%;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+#panel{
+	border: 2px solid rgba(0,0,0,0.2);
+	margin: 1%;
+	padding: 2%;
+	border-radius: 3px;
+}
+#panel #panel-heading,
+#panel #panel-footer,
+#panel .reply{
+	background: rgba(0,0,0,0.5);
+	padding: 7px;
+	border-radius: 3px;
+	margin: 5px 0px;
+	color: white;
+	border: none;
+	font-family: 'Comic Neue', cursive;
+}
+#panel .reply{
+	font-size: 16px;
+}
+#panel .reply:hover,
+#comment_form #submit:hover{
+	background: rgba(0,0,0,1);
+}
+#panel #panel-body{
+	padding: 10px;
+	font-weight: 600;
+	background: rgba(0,0,0,.1);
+	border-radius: 3px;
+}
+#comment_message{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}

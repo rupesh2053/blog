@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue&display=swap');
+*{
+  transition: .5s ease-in;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+  @media (min-width: 801px){
+    .container{
+      width: 90%;
+    }
+  }
+  @media (max-width: 800px){
+    .container{
+      width: 100%;
+    }
+  }
+/*header design*/
+nav{
+    color: white;
+    padding: 7px 40px;
+    height: 75px;
+    transition: .5s ease;
+    background: rgb(209,86,86);
+}
+#search-box, #search-btn{
+    height: 35px;
+    border: none;
+}
+#search-box{
+	background: #fff;
+	width: 250px;
+	padding-left: 5px;
+}
+#btn-signin{
+    background: rgb(184,50,50);
+    color: white;
+    border: 1px solid #fff;
+    height: 30px;
+    padding: 0px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: 'Comic Neue', cursive;
+}
+#btn-signin:hover{
+    background: none;
+    cursor: pointer;
+}
+.fa-search{
+	color: #fff;
+	font-size: 25px;
+    font-weight: bold;
+}
+.fa-search:hover{
+	background: rgb(209,86,86);
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-whatsapp{
+	height: 35px;
+	width: 35px;
+	padding: 7px 8px;
+	margin: 5px;
+	border-radius: 50%;
+	font-weight: bold;
+    font-size: 22px;
+}
+.fa-facebook-f{
+	padding: 7px 11px;
+	background: #3B5998;
+}
+.fa-facebook-f:hover{
+	color: #3B5998;
+	background: white;
+}
+.fa-twitter{
+    background: #00ACEE;
+}
+.fa-twitter:hover{
+    background: white;
+    color: #00ACEE;
+}
+
+.fa-instagram{
+    background: red;
+}
+.fa-instagram:hover{
+   	background: white;
+    color: red;
+}
+
+.fa-whatsapp{
+	margin-right: 10px;
+    background: #25D366;
+}
+.fa-whatsapp:hover{
+   	background: white;
+    color: #25D366;
+}
+.nav-link{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.nav-link #shop{
+	color: white;
+}
+@media ( min-width: 500px) and (max-width: 900px){
+  h4{
+    font-size: 18px;
+  }
+}
+@media (max-width: 669px){
+	#search-box{
+		width: 200px;
+	}
+}
+@media (max-width: 480px){
+	.nav-link{
+		margin-left: -20px;
+	}
+}
+@media (max-width: 320px){
+	.nav-link{
+		font-size: 30px;
+	}
+}
+/*header design ends*/
+
+/*nav-bar 2 design*/
+#nav2{
+	margin-top: 12px;
+	background: rgb(255,74,74);
+	height: 65px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#nav2 li{
+	margin: 0px 7px;
+}
+#nav2 a{
+	font-size: 20px;
+	line-height: 50px;
+	font-family: 'Comic Neue', cursive;
+}
+#nav2 .active{
+	border: 1px solid rgb(184,50,50);
+    border-radius: 5px;
+}
+@media (max-width: 800px){
+	#nav2 li{
+		margin: 0px;
+	}
+	#nav2 a{
+		font-size: 14px;
+	}
+}
+@media (max-width: 480px){
+	#nav-menu{
+		margin-left: -30px;
+	}
+}
+@media (max-width: 480px){
+	#nav2{
+		margin-top: 20px;
+	}
+}
+/*nav-bar 2 design ends*/
+
+/*mobile nav design*/
+#mobile-nav{
+	font-family: 'Comic Neue', cursive;
+	font-size: 16px;
+}
+#mobile-nav li{
+	background: rgba(0,0,0,0.1);
+	margin: 3px 5px;
+	border-radius: 5px;
+}
+#mobile-nav a{
+	font-size: 16px;
+	font-weight: bold;
+}
+#mobile-nav .active{
+	background: rgba(209,86,86,1);
+}
+#mobile-nav .active a{
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+#mobile-nav .active i{
+	color: white;
+}
+#mobile-nav span,
+#mobile-nav h5{
+	font-weight: bold;
+	padding: 0px 15px;
+	background: rgba(209,86,86,1);
+}
+#mobile-nav h5{
+	padding: 10px;
+	margin-top: 0px;
+	color: white;
+}
+#side-nav i{
+	font-size: 20px;
+}
+.nav-wrapper #logo{
+	color: rgb(184,50,50);
+	text-shadow: 0 1px 1px #ddd,0 2px 0 #c5bba4,0 3px 0 #c5bba5,0 4px 0 #b7ae98,0 5px 0 #a39a87,0 6px 0 #8b8472,0 7px 0 #726c5c,0 8px 0 #5b5547,0 9px 7px #474136;
+	font-family: sans-serif;
+}
+/*mobile nav design ends*/
+
+/*Side-cata-nav Catagories area style*/
+#news-cata-list{
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 5px;
+	padding: 5px;
+}
+#news-cata-list li{
+	border-radius: 5px;
+	font-weight: 590;
+	padding: 10px;
+	margin-top: 5px;
+}
+#news-cata-list li:hover{
+	background: rgba(0,0,0,0.1);
+}
+#news-cata-list li a{
+	color: black;
+	font-family: 'Comic Neue', cursive;
+	font-size: 20px;
+	/*transition: .5s ease-in;*/
+}
+#news-cata-list li a:hover{
+	padding-left: 5%;
+}
+#news-cata-list .active, #news-cata-list .active:hover{
+	background: rgb(209,86,86);
+}
+#news-cata-list .active a{
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+}
+@media (max-width: 480px){
+	#news-cata-list li{
+		border: 1px solid rgba(0,0,0,0.2);
+	}
+	#news-cata-list{
+		border: none;
+	}
+}
+/*Side-cata-nav Catagories area style ends*/
+
+
+/*news-area styles*/
+	.row{
+		margin: 0px 10px;
+	}
+	#news-header,
+	#news-contents h5,
+	#news-contents p{
+		font-family: 'Comic Neue', cursive;
+		font-weight: bold;
+	}
+	#news-contents p{
+		font-size: 18px;
+	}
+	#news-contents:hover{
+		background: rgba(0,0,0,.1);
+		border-radius: 5px;
+	}
+
+	#news-img img{
+		border-radius: 5px;
+		transition: .3s ease-in;
+		width: 100%;
+		height: 180px;
+		filter: brightness(70%);
+	}
+	#news-img img:hover{
+		cursor: pointer;
+		filter: brightness(90%);
+	}
+	#btn-more-news{
+		margin-bottom: 2%;
+	}
+	#news-cata-list{
+      cursor: pointer;
+      border: none;
+    }
+    #new-id #news-contents a button{
+      border: 1px solid grey;
+      background: rgba(209,86,86,1);
+      color: white;
+      padding: 3px 10px;
+      border-radius: 2px;
+      cursor: pointer;
+  	}
+  	#news-cata-list h6{
+  		line-height: 38px;
+  		padding: 7px;
+  		border-radius: 4px;
+  		font-size: 18px;
+  		margin-bottom: -5px;
+  		border: 1px solid rgba(209,86,86,0.1);
+  	}
+  	#news-cata-list h6:hover{
+  		background: rgba(0,0,0,0.1);
+  		padding-left: 7%;
+  	}
+  	#news-cata-list .active{
+  		color: white;
+  		font-size: 20px;
+  	}
+	@media (max-width: 600px){
+		#news-header{
+			font-size: 30px;
+		}
+		#new-id{
+			border: 1px solid rgba(0,0,0,0.2);
+			padding:1% 1%;
+			padding-left: 0;
+			border-radius: 3px;
+			margin-top: 7px;
+		}
+		#news-contents{
+			background: #ccff90;
+			border-radius: 3px;
+			padding: 3px;
+			height: 150px;
+		}
+		#news-contents p,
+		#news-contents h5{
+			font-size: 14px;
+		}
+		#news-img img{
+			height: 150px;
+		}
+		#btn-more-news{
+			margin-right: 2%;
+		}
+	}
+/*news-area styles ends*/
+
+
+/* Contact form design */
+#contact-form{
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: 5px;
+}
+#contact-form input{
+	border-radius: 7px;
+	padding-left: 3px;
+}
+h4,h6,h5{
+	font-family: 'Comic Neue', cursive;
+	font-weight: bold;
+}
+ #contact-form button{
+  border: none;
+  background: rgba(209,86,86,.9);
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 1%;
+}
+#contact-form button:hover{
+  background: rgba(209,86,86,1);
+  cursor: pointer;
+}
+#contact-form .input-success{
+  border: 1px solid green;
+}
+#contact-form .input-error{
+  border: 1px solid red;
+}
+.form-success, .form-error{
+  background: green;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+.form-error{
+  background: red;
+}
+
+/* Contact form design */
+
+/*about page design*/
+#about-social-links{
+	padding: 0px 20px;
+}
+#about-social-links i{
+	color: white;
+	height: 35px;
+	width: 35px;
+	border-radius: 30%;
+	margin:0;
+	margin-top: 3px;
+}
+#about-social-links .email{
+	background: rgba(168,7,7,1);
+	padding: 5px 6px;
+}
+#about-social-links .fa-youtube-play{
+	background: red;
+	padding: 9px;
+}
+#about-social-links i:hover{
+	background: black;
+	cursor: pointer;
+}
+#team-member h6{
+	padding: 13px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+#team-member h6:hover{
+	background: rgba(0,0,0,.1);
+	cursor: pointer;
+}
+#team-member .active, #team-member .active:hover{
+	background: rgba(209,86,86,1);
+	color: white;
+	font-size: 20px;
+	border: rgba(209,86,86,1);
+}
+#team-members-profile{
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 5px;
+}
+#team-members-profile #desc{
+	font-family: 'Comic Neue', cursive;
+	font-weight: bold;
+	font-size: 18px;
+}
+#team-members-profile img{
+	width: 100%;
+}
+#about-social-links h6{
+    margin-top: -5px;
+}
+
+/*about page design ends*/
+
+/*video page style*/
+#video-cata{
+	border: 1px solid rgba(0,0,0,0.2);
+}
+#video-cata h6{
+	border-radius: 3px;
+	padding: 4%;
+}
+#video-cata h6:hover{
+	background: rgba(0,0,0,0.1);
+}
+#video-cata .active, #video-cata .active:hover{
+	background: rgb(168,7,7);
+	color: white;
+}
+#video #related-videos img{
+	border-radius: 7px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 3px;
+}
+#related-videos-desc{
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 30px 10px;
+	border-radius: 3px;
+	height: 197px;
+}
+#related-videos-desc input{
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 5px;
+	width: 65%;
+	padding-left: 5px;
+	height: 40px;
+}
+#related-videos-desc button{
+	border: none;
+	background: rgb(168,7,7);
+	margin: 5px;
+	color: white;
+	padding: 7px 15px;
+	font-size: 18px;
+	border-radius: 3px;
+}
+@media (max-width: 480px){
+	#video img,
+	#related-videos-desc{
+		margin-top: 20px;
+	}
+}
+/*video page style ends*/
+
+
+/*footer style*/
+	footer{
+      background: rgb(255,74,74);
+      padding: 7px 20px;
+    }
+    footer:hover{
+      background: rgba(255,74,74,.9);
+    }
+    .social-links li{
+      cursor: pointer;
+      display: inline;
+    }
+    .social-links .image img{
+    	height: 150px;
+    	width: 150px;
+    	border-radius: 50%;
+    	filter: brightness(60%);
+    	margin-left: 4%;
+    }
+    .social-links h6{
+    	color: white;
+    	font-weight: 550;
+    }
+    .social-links #subscribe,
+    .social-links #btn-subscribe{
+    	border: none;
+    	height: 35px;
+    	background: white;
+    	border-radius: 3px;
+    	width: 100%;
+    	font-weight: 550;
+    }
+    .social-links #btn-subscribe{
+    	background: rgba(255,0,0,.9);
+    	color: white;
+    	cursor: pointer;
+    }
+    .social-links #btn-subscribe:hover{
+    	background: red;
+    }
+    .social-links .image img:hover{
+    	filter: brightness(90%);
+    }
+    .social-links .fa-facebook-f{
+      color: #3B5998;
+      background: white;
+    }
+    .social-links .fa-twitter{
+      color: #00ACEE;
+      background: white;
+    }
+    .social-links .fa-instagram{
+      color: red;
+      background: white;
+    }
+    .social-links .fa-whatsapp{
+      color: #25D366;
+      background: white;
+    }
+
+    .social-links .fa-facebook-f:hover{
+      background: #3B5998;
+      color: white;
+    }
+    .social-links .fa-twitter:hover{
+      background: #00ACEE;
+      color: white;
+    }
+    .social-links .fa-instagram:hover{
+      background: red;
+      color: white;
+    }
+    .social-links .fa-whatsapp:hover{
+      background: #25D366;
+      color: white;
+    }
+    .Pages a{
+      color: white;
+      font-size: 16px;
+    }
+    .Pages a:hover{
+      color: #0288d1;
+    }
+    
+    footer ul p{
+      color: white;
+      font-weight: bold;
+      font-family: 'Comic Neue', cursive;
+      font-size: 18px;
+    }
+    copy-right{
+      background: rgb(209,86,86);
+      color: white;
+      display: block;
+      text-align: center;
+      padding: 7px;
+    }
+    @media (max-width: 520px){
+    	.social-links .image img{
+    		margin-left: 0;
+    		height: 120px;
+    		width: 120px;
+    	}
+    }
+    @media (max-width: 320px){
+    	.Pages span{
+    		font-size: 12px;
+    	}
+    }
+/*footer style ends*/
+

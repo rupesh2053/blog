@@ -1,0 +1,38 @@
+body{
+	background: rgba(0,0,0,.1);
+}
+input, select, textarea{
+	border: none;
+	width: 400px;
+	padding: 15px;
+	margin: 5px;
+	border-radius: 5px;
+}
+select{
+	width: 430px;
+}
+button{
+	border: none;
+	padding: 7px 20px;
+	background: rgba(168,7,7,1);
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+h6{
+	width: 400px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.form-error,.form-success{
+	color: white;
+	background: red;
+	padding: 10px;
+}
+.input-error{
+	border: 2px solid rgba(168,7,7,.5);
+}
+.form-success{
+	background: green;
+}
